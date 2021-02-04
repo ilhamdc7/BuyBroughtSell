@@ -1,0 +1,31 @@
+.header{
+    background-color: #F6AB39;
+    width: 1440px;
+    height: 60px;
+}
+
+
+.message{
+    margin-top: 18px;
+    margin-left: 19px;
+    position: absolute;
+
+}
+.srcbar{
+    width: 495.79px;
+    position: absolute;
+    height: 20px;
+    margin-left: 389px;
+    margin-top: 16px;
+}
+
+.inptvoice{
+    position: absolute;
+    margin-top: 16px;
+    margin-left: 900px;
+    width: 40px;
+    height: 40px;
+}
+
+
+

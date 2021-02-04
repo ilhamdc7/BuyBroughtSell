@@ -1,0 +1,24 @@
+
+
+.search{
+    width: 495.79px;
+    height: 30px;
+    position: absolute;
+    border-style: none;
+
+}
+
+.int{
+    width:495.79px ;
+    height: 30px;
+    border-width: 0px;
+    border-radius: 15px;
+    border-style: none;
+}
+
+.SearchIcon {
+    position: relative;
+    margin-top: -25px;
+    margin-left: 462px;
+}
+
