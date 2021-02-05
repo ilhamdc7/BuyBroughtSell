@@ -1,6 +1,5 @@
 import '../styles/globals.css'
 import '../Components/Header/header.module.css'
-import '../Components/Header/InputVoice.modules.css'
 import '../Components/Header/SearchBar.module.css'
 
 

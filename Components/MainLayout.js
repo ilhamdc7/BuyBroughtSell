@@ -1,23 +1,13 @@
 import Header from "./Header/header";
 
+function MainLayout({ children }) {
+  return (
+    <>
+      <Header />
 
-function MainLayout ({children}) {
-
-    return(
-        <>
-
-
-
-            <Header />
-
-
-
-                {children}
-
-
-
-        </>
-    )
+      {children}
+    </>
+  );
 }
 
-export default MainLayout
+export default MainLayout;

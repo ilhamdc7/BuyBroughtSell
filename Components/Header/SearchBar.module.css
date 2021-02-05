@@ -1,9 +1,10 @@
 
 
 .search{
+    position: absolute;
     width: 495.79px;
     height: 30px;
-    position: absolute;
+    border-radius: 15px;
     border-style: none;
 
 }
@@ -17,8 +18,81 @@
 }
 
 .SearchIcon {
-    position: relative;
+    position: absolute;
     margin-top: -25px;
     margin-left: 462px;
 }
 
+.inptvoice{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    border-radius: 60px;
+    margin-left: 503px;
+    align-items: center;
+    display:flex;
+    justify-content: center;
+    
+}
+
+.inptvoice:hover{
+    background-color:#5E5D5D;
+}
+
+.basket{
+    position: absolute;
+    margin-left: 765px;
+    margin-top: 4px
+    
+}
+
+.sign{
+    width: 50px;
+    height: 18px;
+    margin-top: 6px;
+    position: absolute;
+    margin-left: 817px;
+    color: white;
+}
+
+.sign:hover{
+    color: #5E5D5D;
+}
+
+.currency{
+    width: 25px;
+    height: 25px;
+    border-radius: 60px;
+    position: absolute;
+    margin-left: 887px;
+    margin-top: 3px;
+    background-color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.vectorcurrency{
+    position: absolute;
+    margin-left: 977.15px;
+    margin-top: 5px;
+}
+
+.language{
+    margin-left: 956px;
+    position: absolute;
+    margin-top: 5px;
+}
+
+.language ul li {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+
+.vectorlanguage{
+    position: absolute;
+    margin-left: 915.67px;
+    margin-top: 5px;
+}

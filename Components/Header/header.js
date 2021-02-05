@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './header.module.css'
 import Message from '../../public/Media/Icons/Message.svg'
 import SearchBar from "./SearchBar";
-import InputVoice from "./InputVoice";
+
 
 
 function Header(props) {
@@ -17,9 +17,7 @@ function Header(props) {
                 <SearchBar/>
             </div>
 
-            <div className={styles.inptvoice}>
-                <InputVoice/>
-            </div>
+            
 
         </div>
 
