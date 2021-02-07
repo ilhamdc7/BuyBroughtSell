@@ -1,0 +1,25 @@
+.header{
+    background-color: #F6AB39;
+    width: 100%;
+    height: 60px;
+}
+
+
+.message{
+    margin-top: 18px;
+    margin-left: 19px;
+    position: absolute;
+
+}
+.srcbar{
+    width: 495.79px;
+    position: absolute;
+    height: 20px;
+    margin-left: 389px;
+    margin-top: 16px;
+}
+
+
+
+
+
