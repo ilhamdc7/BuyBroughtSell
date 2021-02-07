@@ -1,25 +1,191 @@
-.header{
-    background-color: #F6AB39;
-    width: 100%;
-    height: 60px;
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+.header {
+  background-color: #f6ab39;
+  width: 100%;
+  height: 60px;
+  position: relative;
+  z-index: 3;
 }
 
-
-.message{
-    margin-top: 18px;
-    margin-left: 19px;
-    position: absolute;
-
+.message {
+  width: 60px;
+  height: 60px;
+  background-color: #f6ab39;
+  bottom: 20px;
+  right:  20px;
+  border-radius: 60px;
+  position: fixed;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  cursor: pointer;
 }
-.srcbar{
-    width: 495.79px;
-    position: absolute;
-    height: 20px;
-    margin-left: 389px;
-    margin-top: 16px;
+
+.search {
+  position: absolute;
+  width: 495.79px;
+  height: 30px;
+  margin-left: 389px;
+  margin-top: 16px;
+  border-radius: 15px;
+  border-style: none;
 }
 
+.int {
+  width: 495.79px;
+  height: 30px;
+  border-width: 0px;
+  border-radius: 15px;
+  border-style: none;
+}
 
+.SearchIcon {
+  position: absolute;
+  margin-top: -25px;
+  margin-left: 462px;
+}
 
+.inptvoice {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border-radius: 60px;
+  margin-left: 892px;
+  margin-top: 16px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
+.inptvoice:hover {
+  background-color: #5e5d5d;
+}
+
+.basket {
+  position: absolute;
+  margin-left: 1154px;
+  margin-top: 20px;
+}
+
+.sign {
+  width: 50px;
+  height: 18px;
+  margin-top: 22px;
+  margin-left: 1206px;
+  position: absolute;
+  color: white;
+  position: absolute;
+  font-family: "Lato", sans-serif;
+}
+
+.sign:hover {
+  color: #5e5d5d;
+}
+
+.currency {
+  width: 25px;
+  height: 25px;
+  border-radius: 60px;
+  position: absolute;
+  margin-left: 1279px;
+  margin-top: 20px;
+  background-color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.vectorcurrency {
+  position: absolute;
+  margin-left: 40px;
+  cursor: pointer;
+}
+
+.language {
+  margin-left: 1348px;
+  position: absolute;
+  margin-top: 23px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.language ul li {
+  text-decoration: none;
+  color: white;
+  list-style: none;
+  font-family: "Lato", sans-serif;
+}
+
+.vectorlanguage {
+  position: absolute;
+  margin-left: 1368px;
+  margin-top: 23px;
+  cursor: pointer;
+}
+
+.showlanguage {
+  position: absolute;
+  margin-top: 19px;
+  width: 35px;
+  height: 60px;
+  background-color: #f2f2f2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.showlanguage ul li {
+  display: block;
+}
+
+.showlanguage ul li a {
+  padding-top: 10px;
+  color: #646363;
+  text-align: center;
+  justify-content: center;
+  width: 35px;
+  height: 100%;
+  display: flex;
+  background-color: #f2f2f2;
+  line-height: 100%;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  margin-top: -1px;
+}
+
+.showlanguage ul li a:hover {
+  color: white;
+  background-color: #646363;
+}
+
+.showcurrency {
+  position: absolute;
+  margin-left: 1270px;
+  margin-top: 60px;
+  cursor: pointer;
+  z-index: 3;
+}
+
+.showcurrency ul li {
+  position: relative;
+  height: 24px;
+  padding: 8px 0px;
+  display: flex;
+  align-items: center;
+  border-color: white;
+  border-style: solid;
+  border-width: 1px;
+  font-family: "Lato", sans-serif;
+  font-size: 10px;
+  background-color: #f2f2f2;
+}
+
+.showcurrency ul li:hover {
+  border-style: solid;
+  border-color: #00b9e4;
+}
 
