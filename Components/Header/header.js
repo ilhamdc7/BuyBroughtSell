@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, {useState} from "react";
 import styles from "./header.module.css";
 import Message from "../../public/Media/Icons/Message.svg";
 import SearchIcon from "../../public/Media/Icons/cil_search.svg";
@@ -17,7 +17,8 @@ import Poland from "../../public/Media/Icons/pln.svg";
 import SubHeader from "../SubHeader/SubHeader";
 
 function Header() {
-  const [showlng, setShowlng] = useState("false");
+  const [showlng, setShowlng] = useState(false);
+  const [showcurrency, setShowcurrency] = useState(false);
 
   function toggle() {
     setShowlng(!showlng);
@@ -41,7 +42,6 @@ function Header() {
     toggle();
   }
 
-  const [showcurrency, setShowcurrency] = useState("false");
 
   function ccurrency() {
     setShowcurrency(!showcurrency);
@@ -73,42 +73,18 @@ function Header() {
 
       <div
         className={styles.showcurrency}
-        showcurrency={showcurrency}
+
         style={{ display: showcurrency ? "block" : "none" }}
       >
         <ul>
-          <li>
-            <Usa />
-            USD
-          </li>
-          <li>
-            <Aze />
-            AZN
-          </li>
-          <li>
-            <Rus />
-            RUBL
-          </li>
-          <li>
-            <Spain />
-            EURO
-          </li>
-          <li>
-            <Turkey />
-            TL
-          </li>
-          <li>
-            <India />
-            INR
-          </li>
-          <li>
-            <China />
-            CYN
-          </li>
-          <li>
-            <Poland />
-            PLN
-          </li>
+          <li><Usa/>USD</li>
+          <li><Aze/>AZN</li>
+          <li><Rus/>RUBL</li>
+          <li><Spain/>EURO</li>
+          <li><Turkey/>TL</li>
+          <li><India/>INR</li>
+          <li><China/>CYN</li>
+          <li><Poland/>PLN</li>
         </ul>
       </div>
 
@@ -126,7 +102,7 @@ function Header() {
 
         <div
           className={styles.showlanguage}
-          show={showlng}
+
           style={{ display: showlng ? "block" : "none" }}
         >
           <ul>

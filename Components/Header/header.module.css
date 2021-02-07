@@ -58,11 +58,20 @@
   display: flex;
   justify-content: center;
 }
-
+.inptvoice
+{
+  transition: 0.2s ease all;
+  cursor: pointer;
+}
 .inptvoice:hover {
   background-color: #5e5d5d;
-}
 
+}
+.inptvoice:hover svg path
+{
+  fill: white;
+
+}
 .basket {
   position: absolute;
   margin-left: 1154px;
@@ -76,12 +85,14 @@
   margin-left: 1206px;
   position: absolute;
   color: white;
-  position: absolute;
+  transition: 0.2s ease all;
   font-family: "Lato", sans-serif;
 }
 
 .sign:hover {
   color: #5e5d5d;
+
+
 }
 
 .currency {
@@ -116,6 +127,10 @@
   text-decoration: none;
   color: white;
   list-style: none;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Lato", sans-serif;
 }
 
@@ -142,7 +157,7 @@
 }
 
 .showlanguage ul li a {
-  padding-top: 10px;
+  padding: 10px;
   color: #646363;
   text-align: center;
   justify-content: center;

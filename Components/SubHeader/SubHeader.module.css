@@ -21,17 +21,20 @@
     position: relative;
     top: 20px;
     left: 19px;
-   
+
 }
 
 .categories::after{
-    content:"|";
-    display: inline-block;
+    content:"";
+    display: block;
     position: absolute;
-    width: 2px;
-    height: 500px;
+    width: 1px;
+    height: 100%;
     margin-left: 20px;
     font-size: 14px;
+    background-color: #484747;
+    right: -22px;
+    top: 0;
 }
 
 
