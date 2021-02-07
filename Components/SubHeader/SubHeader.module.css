@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
+
+
+.SubHeader{
+    position: absolute;
+    width: 100%;
+    height: 52px;
+    background-color: #F2F2F2;
+    margin-top: 60px;
+    z-index: 2;
+}
+
+.submenu ul li a{
+    font-family: 'Montserrat', sans-serif;
+    color: #313538;
+    font-size: 14px;
+}
+
+
+.categories{
+    position: relative;
+    top: 20px;
+    left: 19px;
+   
+}
+
+.categories::after{
+    content:"|";
+    display: inline-block;
+    position: absolute;
+    width: 2px;
+    height: 500px;
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+
+.todaysoffers{
+    position: absolute;
+    top: 20px;
+    left: 155px;
+}
+
+.browsinghistory{
+    position: absolute;
+    top: 20px;
+    left: 322px;
+}
+
+.youmightlike{
+    position: absolute;
+    top: 20px;
+    left: 517px;
+}
+
+.border1{
+    position: absolute;
+    top: 13px;
+    left: 133px;
+}
+
+.border2{
+    position: absolute;
+    top: 13px;
+    left: 300px;
+}
+
+.border3{
+    position: absolute;
+    top:13px;
+    left: 495px;
+}
+
+.border4{
+    position: absolute;
+    top: 13px;
+    left: 659px;
+}
