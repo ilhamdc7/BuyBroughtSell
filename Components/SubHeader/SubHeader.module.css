@@ -1,81 +1,85 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400&display=swap');
-
-
-.SubHeader{
-    position: absolute;
-    width: 100%;
-    height: 52px;
-    background-color: #F2F2F2;
-    margin-top: 60px;
-    z-index: 2;
+.subHeader {
+  display: flex;
+  width: 100%;
+  height: 52px;
+  background-color: #f2f2f2;
+  z-index: 2;
+  align-items: center;
 }
 
-.submenu ul li a{
-    font-family: 'Montserrat', sans-serif;
-    color: #313538;
-    font-size: 14px;
+.subHeader p {
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
 }
 
-
-.categories{
-    position: relative;
-    top: 20px;
-    left: 19px;
-
+.subHeader p a {
+  color: #313538;
 }
 
-.categories::after{
-    content:"";
-    display: block;
-    position: absolute;
-    width: 1px;
-    height: 100%;
-    margin-left: 20px;
-    font-size: 14px;
-    background-color: #484747;
-    right: -22px;
-    top: 0;
+.categories {
+  position: relative;
+  width: 133px;
+  text-align: center;
 }
 
-
-.todaysoffers{
-    position: absolute;
-    top: 20px;
-    left: 155px;
+.categories::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background-color: black;
+  right: 0;
 }
 
-.browsinghistory{
-    position: absolute;
-    top: 20px;
-    left: 322px;
+.todaysOffers {
+  position: relative;
+  text-align: center;
+  width: 167px;
 }
 
-.youmightlike{
-    position: absolute;
-    top: 20px;
-    left: 517px;
+.todaysOffers::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background-color: black;
+  right: 0px;
 }
 
-.border1{
-    position: absolute;
-    top: 13px;
-    left: 133px;
+.browsingHistory {
+  position: relative;
+  text-align: center;
+  width: 195px;
 }
 
-.border2{
-    position: absolute;
-    top: 13px;
-    left: 300px;
+.browsingHistory::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background-color: black;
+  right: 0px;
 }
 
-.border3{
-    position: absolute;
-    top:13px;
-    left: 495px;
+.youMightLike {
+  position: relative;
+  text-align: center;
+  width: 164px;
 }
 
-.border4{
-    position: absolute;
-    top: 13px;
-    left: 659px;
+.youMightLike::after {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 1px;
+  height: 32px;
+  background-color: black;
+  right: 0px;
 }

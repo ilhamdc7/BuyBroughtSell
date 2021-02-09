@@ -1,19 +1,16 @@
 import React from 'react'
 import styles from './SubHeader.module.css';
+import Link from 'next/link'
 
 
 
 const SubHeader = () => {
     return (
-        <div className={styles.SubHeader}>
-            <div className={styles.submenu}>
-            <ul>
-                <li><a href='#' className={styles.categories}>CATEGORIES</a></li>
-                <li><a href='#' className={styles.todaysoffers}>TODAY'S OFFERS</a></li> 
-                <li><a href='#' className={styles.browsinghistory}>BROWSING HISTORY</a></li>
-                <li><a href='#' className={styles.youmightlike}>YOU MIGHT LIKE</a></li>
-            </ul>
-            </div>
+        <div className={styles.subHeader}>
+           <p className={styles.categories}><Link href='#'>CATEGORIES</Link></p>
+           <p className={styles.todaysOffers}><Link href='#'>TODAY'S OFFERS</Link></p>
+           <p className={styles.browsingHistory}><Link href='#'>BROWSING HISTORY</Link></p>
+           <p className={styles.youMightLike}><Link href='#'>YOU MIGHT LIKE</Link></p>
             
             
         </div>
