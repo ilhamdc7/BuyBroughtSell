@@ -1,11 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
-
 .header {
   background-color: #f6ab39;
   width: 100%;
   height: 60px;
   position: relative;
   z-index: 3;
+  display: flex;
+  align-items: center;
+  
 }
 
 .message {
@@ -13,7 +14,7 @@
   height: 60px;
   background-color: #f6ab39;
   bottom: 20px;
-  right:  20px;
+  right: 20px;
   border-radius: 60px;
   position: fixed;
   align-items: center;
@@ -23,67 +24,52 @@
 }
 
 .search {
-  position: absolute;
+  display: flex;
+  margin-left: 448px;
   width: 495.79px;
   height: 30px;
-  margin-left: 389px;
-  margin-top: 16px;
   border-radius: 15px;
   border-style: none;
+  background-color: white;
 }
 
 .int {
-  width: 495.79px;
+  width: 454px;
   height: 30px;
   border-width: 0px;
   border-radius: 15px;
   border-style: none;
+  outline: none;
+  padding-left: 20px;
 }
 
-.SearchIcon {
-  position: absolute;
-  margin-top: -25px;
-  margin-left: 462px;
-}
-
-.inptvoice {
-  position: absolute;
+.inptVoice {
+  margin-left: 7.21px;
   width: 30px;
   height: 30px;
   background-color: white;
   border-radius: 60px;
-  margin-left: 892px;
-  margin-top: 16px;
   align-items: center;
   display: flex;
   justify-content: center;
-}
-.inptvoice
-{
   transition: 0.2s ease all;
   cursor: pointer;
 }
-.inptvoice:hover {
+
+.inptVoice:hover {
   background-color: #5e5d5d;
-
 }
-.inptvoice:hover svg path
-{
+.inptVoice:hover svg path {
   fill: white;
-
 }
 .basket {
-  position: absolute;
-  margin-left: 1154px;
-  margin-top: 20px;
+  margin-left: 161px;
 }
 
 .sign {
   width: 50px;
   height: 18px;
-  margin-top: 22px;
-  margin-left: 1206px;
-  position: absolute;
+  margin-left: 33px;
   color: white;
   transition: 0.2s ease all;
   font-family: "Lato", sans-serif;
@@ -91,17 +77,20 @@
 
 .sign:hover {
   color: #5e5d5d;
+}
 
-
+.showCurrencyTop {
+  margin-left: 44px;
+  display: flex;
+  position: relative;
+  align-items: center;
 }
 
 .currency {
   width: 25px;
   height: 25px;
   border-radius: 60px;
-  position: absolute;
-  margin-left: 1279px;
-  margin-top: 20px;
+
   background-color: white;
   align-items: center;
   display: flex;
@@ -109,16 +98,19 @@
   cursor: pointer;
 }
 
-.vectorcurrency {
-  position: absolute;
-  margin-left: 40px;
+.vectorCurrency {
+  margin-left: 3.67px;
   cursor: pointer;
 }
 
+.topLanguage {
+  margin-left: 38.48px;
+  align-items: center;
+  display: flex;
+  position: relative;
+}
+
 .language {
-  margin-left: 1348px;
-  position: absolute;
-  margin-top: 23px;
   cursor: pointer;
   z-index: 3;
 }
@@ -134,16 +126,14 @@
   font-family: "Lato", sans-serif;
 }
 
-.vectorlanguage {
-  position: absolute;
-  margin-left: 1368px;
-  margin-top: 23px;
+.vectorLanguage {
+  margin-left: 5px;
   cursor: pointer;
 }
 
-.showlanguage {
+.showLanguage {
   position: absolute;
-  margin-top: 19px;
+  top: 40px;
   width: 35px;
   height: 60px;
   background-color: #f2f2f2;
@@ -152,11 +142,11 @@
   justify-content: center;
 }
 
-.showlanguage ul li {
+.showLanguage ul li {
   display: block;
 }
 
-.showlanguage ul li a {
+.showLanguage ul li a {
   padding: 10px;
   color: #646363;
   text-align: center;
@@ -169,24 +159,23 @@
   align-items: center;
   font-family: "Lato", sans-serif;
   font-size: 15px;
-  margin-top: -1px;
 }
 
-.showlanguage ul li a:hover {
+.showLanguage ul li a:hover {
   color: white;
   background-color: #646363;
 }
 
-.showcurrency {
+.showCurrency {
   position: absolute;
-  margin-left: 1270px;
-  margin-top: 60px;
+  left: -8px;
+  top: 42px;
   cursor: pointer;
   z-index: 3;
 }
 
-.showcurrency ul li {
-  position: relative;
+.showCurrency ul li {
+  list-style: none;
   height: 24px;
   padding: 8px 0px;
   display: flex;
@@ -199,8 +188,7 @@
   background-color: #f2f2f2;
 }
 
-.showcurrency ul li:hover {
+.showCurrency ul li:hover {
   border-style: solid;
   border-color: #00b9e4;
 }
-

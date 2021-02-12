@@ -1,13 +1,18 @@
-import Header from "./Header/header";
+import Header from "./Header/Header";
+import MainContainer from "./MainContainer/MainContainer";
 
 
 function MainLayout({ children }) {
   return (
     <>
+
+    
       <Header />
 
       {children}
 
+      <MainContainer />
+      
     </>
   );
 }
