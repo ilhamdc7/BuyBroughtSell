@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import styles from "./Header.module.css";
+import styles from "./Header1.module.css";
 import Message from "../../public/Media/Icons/Message.svg";
 import SearchIcon from "../../public/Media/Icons/cil_search.svg";
 import InputVoice from "../../public/Media/Icons/InputVoice.svg";
