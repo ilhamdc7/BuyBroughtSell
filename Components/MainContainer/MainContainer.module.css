@@ -1,0 +1,65 @@
+.headContainer{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 492px;
+
+    align-items: center;
+
+
+
+}
+
+.largeCard{
+    width: 57.13%;
+    margin-left: 24px;
+    height: 469px;
+
+    background-image: url(../../public/Media/Icons/Image4.jpg);
+
+
+}
+
+.mediumContainer{
+    display: flex;
+    width: 37.82%;
+    margin-left: 28px;
+    height: 469px;
+    flex-wrap: wrap;
+
+    align-items: center;
+
+}
+
+
+.mediumCard{
+    width: 100%;
+    height: 226px;
+
+    background-image: url(../../public/Media/Icons/Rectangle\ 78.jpg);
+   
+}
+
+.smallCard{
+    width: 59.44%;
+    height: 226px;
+
+    background-image: url(../../public/Media/Icons/Image2.jpg);
+    margin-top: 17px;
+    margin-left: 4.5%;
+    
+}
+
+.smallestCard{
+    width: 35.96%;
+    height: 226px;
+    left: 0px;
+    background-image: url(../../public/Media/Icons/Image3.jpg);
+    margin-top: 17px;
+    
+}
+
+
+
+
+
