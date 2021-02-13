@@ -49,6 +49,12 @@ function Header() {
   return (
     <div>
       <div className={styles.header}>
+
+
+
+        <div className={styles.secondRow}>
+
+
         <div className={styles.search}>
           <input
             className={styles.int}
@@ -64,6 +70,11 @@ function Header() {
         <div className={styles.inptVoice}>
           <InputVoice />
         </div>
+
+
+
+        </div>
+        
         <div className={styles.basket}>
           <Basket />
         </div>
