@@ -1,10 +1,11 @@
 .subHeader {
   display: flex;
   width: 100%;
-  height: 52px;
+  height: 48px;
   background-color: #f2f2f2;
   z-index: 2;
   align-items: center;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
 }
 
 .subHeader p {
@@ -12,74 +13,27 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 13px;
   font-family: "Montserrat", sans-serif;
+  font-weight: 400;
 }
 
 .subHeader p a {
   color: #313538;
 }
-
-.categories {
-  position: relative;
-  width: 133px;
-  text-align: center;
-}
-
-.categories::after {
+.subLink::after {
   content: "";
   display: block;
   position: absolute;
-  width: 1px;
+  width: 0.5px;
   height: 32px;
-  background-color: black;
+  background-color: #484747;
   right: 0;
+
 }
 
-.todaysOffers {
+.subLink{
   position: relative;
   text-align: center;
-  width: 167px;
-}
-
-.todaysOffers::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1px;
-  height: 32px;
-  background-color: black;
-  right: 0px;
-}
-
-.browsingHistory {
-  position: relative;
-  text-align: center;
-  width: 195px;
-}
-
-.browsingHistory::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1px;
-  height: 32px;
-  background-color: black;
-  right: 0px;
-}
-
-.youMightLike {
-  position: relative;
-  text-align: center;
-  width: 164px;
-}
-
-.youMightLike::after {
-  content: "";
-  display: block;
-  position: absolute;
-  width: 1px;
-  height: 32px;
-  background-color: black;
-  right: 0px;
+  padding: 0 22px;
 }

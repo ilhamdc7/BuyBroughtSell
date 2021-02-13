@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-import styles from "./Header1.module.css";
+import React, {useState} from "react";
 import Message from "../../public/Media/Icons/Message.svg";
 import SearchIcon from "../../public/Media/Icons/cil_search.svg";
 import InputVoice from "../../public/Media/Icons/InputVoice.svg";
@@ -15,6 +14,7 @@ import India from "../../public/Media/Icons/india.svg";
 import China from "../../public/Media/Icons/china.svg";
 import Poland from "../../public/Media/Icons/pln.svg";
 import SubHeader from "../SubHeader/SubHeader";
+import styles from './header.module.css'
 
 function Header() {
   const [showlng, setShowlng] = useState(false);
@@ -24,21 +24,15 @@ function Header() {
     setShowlng(!showlng);
   }
 
-  function closeshowlng() {
-    setShowlng(false);
-  }
 
-  function closeccurency() {
-    setShowcurrency(false);
-  }
 
   function allInOne() {
-    closeshowlng();
+    setShowlng(false);
     ccurrency();
   }
 
   function allInOne2() {
-    closeccurency();
+    setShowcurrency(false);
     toggle();
   }
 
@@ -50,7 +44,7 @@ function Header() {
     <div>
       <div className={styles.header}>
 
-
+        <div className={styles.firstRow}></div>
 
         <div className={styles.secondRow}>
 
@@ -67,62 +61,61 @@ function Header() {
           </div>
         </div>
 
-        <div className={styles.inptVoice}>
-          <InputVoice />
+          <div className={styles.inptVoice}>
+            <InputVoice/>
+          </div>
+
+
         </div>
+        <div className={styles.thirdRow}>
+          <div className={styles.basket}>
+            <Basket/>
+          </div>
+          <a className={styles.sign} href="#">
+            Sign In
+          </a>
 
-
-
-        </div>
-        
-        <div className={styles.basket}>
-          <Basket />
-        </div>
-        <a className={styles.sign} href="#">
-          Sign In
-        </a>
-
-        <div className={styles.showCurrencyTop}>
-          <div
-            className={styles.showCurrency}
+          <div className={styles.showCurrencyTop}>
+            <div
+                className={styles.showCurrency}
             style={{ display: showcurrency ? "block" : "none" }}
           >
             <ul>
               <li>
                 <Usa />
-                USD
+                <span>  USD</span>
               </li>
               <li>
                 <Aze />
-                AZN
+                <span>AZN</span>
               </li>
               <li>
                 <Rus />
-                RUBL
+                <span>   RUB</span>
               </li>
               <li>
                 <Spain />
-                EURO
+               <span> EUR</span>
               </li>
               <li>
                 <Turkey />
-                TL
+                <span> TL</span>
               </li>
               <li>
                 <India />
-                INR
+                <span>  INR</span>
               </li>
               <li>
                 <China />
-                CYN
+                <span>CYN</span>
               </li>
               <li>
                 <Poland />
-                PLN
+                <span>  PLN</span>
               </li>
             </ul>
           </div>
-
+          {/*ToDo  1 div yarat ona OnClik ver*/}
           <div className={styles.currency} onClick={allInOne}>
             <Dollar />
           </div>
@@ -171,17 +164,17 @@ function Header() {
             </div>
           </div>
           <div className={styles.vectorLanguage}>
-            <Vector onClick={allInOne2} />
+            <Vector onClick={allInOne2}/>
           </div>
         </div>
 
-        <div className={styles.message}>
-          <Message />
+          <div className={styles.message}>
+            <Message/>
+          </div>
         </div>
       </div>
-
       <div>
-        <SubHeader className={styles.Subheader} />
+        <SubHeader className={styles.Subheader}/>
       </div>
     </div>
   );
