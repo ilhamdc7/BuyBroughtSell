@@ -1,65 +1,118 @@
-.headContainer{
-    position: relative;
-    display: flex;
+.headContainer {
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 492px;
+  align-items: center;
+}
+
+.largeCard {
+  width: 57.13%;
+  margin-left: 24px;
+  height: 469px;
+  overflow: hidden !important;
+  position: relative;
+}
+
+.mediumContainer {
+  display: flex;
+  width: 37.82%;
+  margin-left: 28px;
+  height: 469px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.mediumCard {
+  width: 100%;
+  height: 226px;
+}
+
+.smallCard {
+  width: 59.44%;
+  height: 226px;
+  margin-top: 17px;
+  margin-left: 4.5%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.smallestCard {
+  width: 35.96%;
+  height: 226px;
+  left: 0px;
+  margin-top: 17px;
+}
+
+.largeCardButton {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 132px;
+  height: 41px;
+  border-radius: 60px;
+  outline-style: none;
+  background-color: #ec0000;
+  font-size: 15px;
+  color: white;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 24px;
+  font-family: "Roboto", sans-serif;
+  border: none;
+}
+
+.shortTitle {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  width: 207px;
+  height: 100px;
+  display: flex;
+  margin-top: 63px;
+  margin-left: 24px;
+  font-weight: 800;
+}
+
+.shortDescription {
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+  width: 200px;
+  height: 100px;
+  margin-left: 24px;
+  margin-top: 6px;
+  display: flex;
+}
+
+.smallCardButton {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  background-color: #ec0000;
+  color: white;
+  border-radius: 60px;
+  outline-style: none;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  display: flex;
+}
+
+.waterMark {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.waterMark2 {
+  width: 150px;
+  height: 41px;
+  position: absolute;
+}
+
+.img{
     width: 100%;
-    height: 492px;
-
-    align-items: center;
-
-
-
+    height: 100%;
 }
-
-.largeCard{
-    width: 57.13%;
-    margin-left: 24px;
-    height: 469px;
-
-    background-image: url(../../public/Media/Icons/Image4.jpg);
-
-
-}
-
-.mediumContainer{
-    display: flex;
-    width: 37.82%;
-    margin-left: 28px;
-    height: 469px;
-    flex-wrap: wrap;
-
-    align-items: center;
-
-}
-
-
-.mediumCard{
-    width: 100%;
-    height: 226px;
-
-    background-image: url(../../public/Media/Icons/Rectangle\ 78.jpg);
-   
-}
-
-.smallCard{
-    width: 59.44%;
-    height: 226px;
-
-    background-image: url(../../public/Media/Icons/Image2.jpg);
-    margin-top: 17px;
-    margin-left: 4.5%;
-    
-}
-
-.smallestCard{
-    width: 35.96%;
-    height: 226px;
-    left: 0px;
-    background-image: url(../../public/Media/Icons/Image3.jpg);
-    margin-top: 17px;
-    
-}
-
-
-
-
-

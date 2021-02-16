@@ -11,6 +11,7 @@ const SubHeader = () => {
            <p className={styles.subLink}><Link href='#'>TODAY'S OFFERS</Link></p>
            <p className={styles.subLink}><Link href='#'>BROWSING HISTORY</Link></p>
            <p className={styles.subLink}><Link href='#'>YOU MIGHT LIKE</Link></p>
+           <p className={styles.subLink}><Link href='#'>FAVORITES</Link></p>
         </div>
     )
 }
