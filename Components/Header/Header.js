@@ -15,6 +15,7 @@ import China from "../../public/Media/Icons/china.svg";
 import Poland from "../../public/Media/Icons/pln.svg";
 import SubHeader from "../SubHeader/SubHeader";
 import styles from './header.module.css'
+import Link from 'next/link'
 
 function Header() {
   const [showlng, setShowlng] = useState(false);
@@ -68,9 +69,11 @@ function Header() {
 
         </div>
         <div className={styles.thirdRow}>
+          <Link href="/basket">
           <div className={styles.basket}>
             <Basket/>
           </div>
+          </Link>
           <a className={styles.sign} href="#">
             Sign In
           </a>

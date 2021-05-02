@@ -1,0 +1,106 @@
+.largeCard{
+  width: 100%;
+  border: solid green;
+  height: 300px;
+  display: flex;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.imageCard{
+  width: 27.77%;
+  height: 100%;
+  position: relative;
+}
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+
+.mediumCard{
+  width: 72.23%;
+  height: 100%;
+  border: solid springgreen;
+  display: flex;
+  flex-wrap:wrap ;
+  position: relative;
+}
+
+.specification{
+  width: 200px;
+  height: 200px;
+  border: solid blue;
+}
+
+
+.title{
+  border: solid red;
+  width:100% ;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color{
+  width: 100%;
+  height: 30px;
+  border: greenyellow solid;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.shipsFrom{
+  width: 100%;
+  height: 30px;
+  border: red solid;
+  display: flex;
+  align-items: center;
+}
+
+.quantityPrice{
+  border: solid springgreen;
+  width: 50%;
+  height: 30px;
+  display: flex;
+
+}
+
+
+.quantity{
+  border: solid salmon;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.totalPrice{
+  border: sandybrown solid;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.onePrice{
+  width: 100%;
+  height: 30px;
+  border: teal solid;
+  display: flex;
+  align-items: center;
+}
+
+.recycle{
+  width: 50px;
+  height: 50px;
+  background-color:#F6AB39 ;
+  border-radius: 60px;
+  margin-left: 92%;
+  margin-top: -204px;
+  cursor: pointer;
+}
